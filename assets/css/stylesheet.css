@@ -86,8 +86,12 @@ section{
     width: 400px;
     height: 400px;
     background-color: black;
-    background-image: url(../img/Tasmania.jpg);
+    background-image: url(../img/images.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 50%;
+    
 }
 
 
