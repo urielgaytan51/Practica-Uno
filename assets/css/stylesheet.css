@@ -5,9 +5,7 @@
 }
 
 
-
 /*Afectando etiqueta*/
-
 
 html {
     scroll-behavior: smooth;
@@ -21,8 +19,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-  
-}
+  }
 
 nav{
     width: auto;
@@ -34,43 +31,16 @@ nav ul li {
     list-style: none;
 }
 
-nav a{
+nav a {
     color: white;
     text-decoration: none;
     display: block;
     padding: 20px;
-    transition: 0.5s;
-}
+    transition: 0.5;
+    }
 
-nav a:hover{
+nav a:hover {
     background-color: darkcyan;
-}
-
-header{
-    height: 10vh;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-header{
-    background-color: black;
-    color: darkcyan;
-}
-
-
-
-nav {
-    width: auto;
-    color: white;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-
 }
 
 main {
@@ -78,6 +48,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 section{
@@ -86,11 +57,37 @@ section{
     height: auto;
     background-color: #333;
     color: rgb(255,255,255);
-    padding: ;
+    padding: 25px;
+    border-radius: 10px;
 }
+
 
 /*Afectando Clase*/
 
 
-
 /*Afectado ID*/
+
+#wellcome {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    background-image: url(../img/Eart.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#profilepic {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    background-image: url(../img/Tasmania.jpg);
+    border-radius: 50%;
+}
+
+
