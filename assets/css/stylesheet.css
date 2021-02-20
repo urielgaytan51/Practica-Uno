@@ -8,9 +8,33 @@
 
 /*Afectando etiqueta*/
 
+
+/*
+font-family: 'Benne', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
 html {
     scroll-behavior: smooth;
 }
+
+h1 {
+    font-family: font-family: 'Roboto', sans-serif; 
+}
+
+h2 
+h3 
+h4 {
+    font-family: ont-family: 'Montserrat', sans-serif;
+}
+
+p,
+a,
+table {
+    font-family: font-family: 'Benne', serif;;
+}
+
 
 header {
     height: auto;
@@ -72,7 +96,7 @@ section{
     width: 100%;
     margin: 0;
     border-radius: 0;
-    background-image: url(../img/Eart.jpg);
+    background-image: url(../img/591b56ab0a802.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -107,6 +131,37 @@ section{
     justify-content: flex-end;
     align-items: center;
     overflow: hidden;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.9);
 }
 
 
+#social a {
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+}
+
+#social ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+#social li a.facebook :hover {
+    color: dodgerblue;
+    transition: 0.5s;
+}
+
+#social li a.instagram :hover {
+    color: hotpink;
+    transition: 0.5s;
+}
+
+#social li a.twitter :hover {
+    color: rgb(14, 91, 94);
+    transition: 0.5s;
+}
+
+#social li {
+    display: inline-block;
+    list-style: none;
+}
