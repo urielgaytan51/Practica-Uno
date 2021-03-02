@@ -135,15 +135,19 @@ section{
 }
 
 
-#social a {
-    color: white;
-    padding: 10px;
-    font-size: x-large;
+#social {
+    margin: 15px;
 }
 
-#social ul li {
+#social li {
     display: inline-block;
-    list-style: none;
+}
+
+#social li a {
+    font-size: x-large;
+    color: white;
+    padding: 10px;
+    transition: 0.5s;
 }
 
 #social li a.facebook :hover {
@@ -157,11 +161,81 @@ section{
 }
 
 #social li a.twitter :hover {
-    color: rgb(14, 91, 94);
+    color: aqua;
     transition: 0.5s;
+} 
+
+/* small*/
+@media (max-width: 640px) {
+    section {
+        background-color: rgb(110, 90, 156);
+    }
+    #wellcome {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        background-image: url(../img/mar.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-position: center;
+    }
+    header {
+        height: center;
+        background-color: rgb(57, 60, 238);
+        color: white;
+        }
+    nav {
+     right: 0;
+    }    
+
 }
 
-#social li {
-    display: inline-block;
-    list-style: none;
+/* Medium*/
+@media (min-width: 641px) and (max-width: 1007px) {
+    section {
+        background-color: rgb(2, 48, 48);
+    }
+    #wellcome {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        background-image: url(../img/591b56ab0a802.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-position: center;
+    }
+}
+
+/*Large*/
+@media (min-width: 1008px) {
+         section {
+             background-color: rgb(49, 46, 46);
+         }
+         #wellcome {
+            width: 100%;
+            margin: 0;
+            border-radius: 0;
+            background-image: url(../img/fin-del-universo.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-position: center;
+        }
 }
